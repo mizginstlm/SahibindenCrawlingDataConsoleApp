@@ -1,0 +1,41 @@
+Sansaction Scanner Case: Sahibinden Crawling Uygulaması Geliştirme Süreci
+
+Analiz %36, Kodlama %44, Test %20.
+
+
+
+Analiz:
+Analiz aşamasında, öncelikle Sahibinden.Com'un yapısını ve işlevselliğini anlamak için detaylı bir inceleme yaptım.
+
+Cloudflare tarafından korunan bir site olması ve dinamik içerik yüklemesi gibi özellikleri göz önünde bulundurularak, geliştirme sürecinin gereksinimleri analiz ettim.
+
+Cloudflare'nin güvenlik önlemleri ve zorluklarının yanı sıra, hedeflenen verilere ulaşmak için farklı çözümler üzerinde durdum.
+
+
+
+Kodlama:
+Kodlama süreci, Console Application'ın oluşturulmasından başladım.
+
+Cloudflare'ın zorluklarını aşmak için çeşitli yöntemlerin denenmesine kadar uzandı.
+
+Başlangıçta HtmlAgilityPack kütüphanesi kullanılarak yapılan denemelerin yetersiz kaldığı fark ettim.
+
+Bu nedenle Selenium gibi alternatif çözümlere yöneldim.
+
+Selenium entegrasyonu için gerekli paketlerin kurulumu ve WebDriver'ın kullanımı 
+
+ve dataları ve ortalamarını yazdırma gibi detaylar, kodlama sürecinin önemli bir kısmını oluşturdu.
+
+
+
+
+Test:
+Test aşamasında, geliştirilen uygulamanın güvenilirliği ve doğruluğu üzerinde durdum. 
+
+Selenium'un kullanımıyla ilgili sorunlar, Cloudflare'ın korumasını aşabilmesibi ve veri çekme işlevselliğinin doğruluğu test ettim.
+
+Ayrıca, olası hata durumlarına karşı geliştirilen hata yönetimi mekanizmaları test edilerek uygulamanın sağlamlığı sağlandı.
+
+
+
+
